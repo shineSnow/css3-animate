@@ -1,7 +1,7 @@
 export default {
     communityCity: ()=>{//获取城市列表
         try {
-            return fetch('/p/admin/index.php/home/APICommunityCity/List',{
+            return fetch('api',{
                 method:'get',
                 headers: {
                     'Accept': 'application/json',
@@ -15,7 +15,7 @@ export default {
     },
     getExample: (e)=>{//获取案例信息
         try {
-            return fetch('/p/wedding/index.php/home/APIMerchant/GetMealsInfo'+e,{
+            return fetch('api'+e,{
                 method:'get',
                 headers: {
                     'Accept': 'application/json',
@@ -29,7 +29,7 @@ export default {
     },
     addTheme: params=>{//新增精编话题
         try {
-            return fetch('/p/admin/index.php/home/APICommunityRichTextThread/choiceThread',{
+            return fetch('api',{
                 method:'post',
                 headers: {
                     'Accept': 'application/json',
