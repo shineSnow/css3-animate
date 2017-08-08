@@ -9,6 +9,6 @@ module.exports = {
     publicPath:'/p/wedding/Public/wap/m/niceBargain/',
     port: 8080,
     proxyTable:{
-        '/p': 'http://admintest.hunliji.com',
+        
     }
 }
