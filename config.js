@@ -1,7 +1,7 @@
 var path = require('path')
 
 module.exports = {
-    title:'花样砍价会',
+    title:'',
     entrys:{
         app:path.join(__dirname,'./app')
     },
